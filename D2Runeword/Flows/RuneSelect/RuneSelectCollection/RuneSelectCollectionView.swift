@@ -66,5 +66,15 @@ extension RuneSelectCollectionView: UICollectionViewDataSource {
 }
 
 extension RuneSelectCollectionView: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let cell = cellForItem(at: indexPath) as? RuneSelectCollectionCell else { return }
+        if cell.isCurrent {
+            viewModel.deleteRune(viewModel.runes[indexPath.row])
+            print("added rune \(viewModel.runes[indexPath.row].name)")
+        } else {
+            viewModel.selectRune(viewModel.runes[indexPath.row])
+            print("deleted rune \(viewModel.runes[indexPath.row].name)")
+        }
+        cell.isCurrent.toggle()
+    }
 }

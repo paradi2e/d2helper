@@ -51,11 +51,13 @@ class RuneSelectViewController: UIViewController {
         titleLabel.text = "choose the runes you have".uppercased()
         titleLabel.numberOfLines = 0
         titleLabel.textAlignment = .center
-        titleLabel.font = UIFont.systemFont(ofSize: 24.0)
+        titleLabel.font = UIFont(name: "Exocet", size: 24.0)
         view.addSubview(titleLabel)
         titleLabel.snp.makeConstraints {
             $0.centerX.equalToSuperview()
             $0.top.equalToSuperview().offset(50.0)
+            $0.left.right.equalToSuperview()
+        
         }
     }
     
@@ -63,4 +65,3 @@ class RuneSelectViewController: UIViewController {
     // MARK: - Buttons methods
     // MARK: - Adaptation
 }
-

@@ -11,6 +11,8 @@
 		DF1D04A52719F9EC00DEC7CA /* RuneSelectCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1D04A42719F9EC00DEC7CA /* RuneSelectCollectionView.swift */; };
 		DF1D04A72719FB3600DEC7CA /* RuneSelectCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1D04A62719FB3600DEC7CA /* RuneSelectCollectionFlowLayout.swift */; };
 		DF1D04A92719FC9300DEC7CA /* RuneSelectCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1D04A82719FC9300DEC7CA /* RuneSelectCollectionViewModel.swift */; };
+		DF1D04AD271A02BA00DEC7CA /* Exocet_Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1D04AB271A02BA00DEC7CA /* Exocet_Heavy.ttf */; };
+		DF1D04AE271A02BA00DEC7CA /* Exocel_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF1D04AC271A02BA00DEC7CA /* Exocel_Light.ttf */; };
 		DF44201A2719E3B000E65BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4420192719E3B000E65BA5 /* AppDelegate.swift */; };
 		DF44201C2719E3B000E65BA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44201B2719E3B000E65BA5 /* SceneDelegate.swift */; };
 		DF44201E2719E3B000E65BA5 /* RuneSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44201D2719E3B000E65BA5 /* RuneSelectViewController.swift */; };
@@ -29,6 +31,8 @@
 		DF1D04A42719F9EC00DEC7CA /* RuneSelectCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneSelectCollectionView.swift; sourceTree = "<group>"; };
 		DF1D04A62719FB3600DEC7CA /* RuneSelectCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneSelectCollectionFlowLayout.swift; sourceTree = "<group>"; };
 		DF1D04A82719FC9300DEC7CA /* RuneSelectCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneSelectCollectionViewModel.swift; sourceTree = "<group>"; };
+		DF1D04AB271A02BA00DEC7CA /* Exocet_Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exocet_Heavy.ttf; sourceTree = "<group>"; };
+		DF1D04AC271A02BA00DEC7CA /* Exocel_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exocel_Light.ttf; sourceTree = "<group>"; };
 		DF4420162719E3B000E65BA5 /* D2Runeword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D2Runeword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4420192719E3B000E65BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF44201B2719E3B000E65BA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +75,15 @@
 				81959B08884F18C2930BB0C1 /* Pods-D2Runeword.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF1D04AA271A026500DEC7CA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DF1D04AC271A02BA00DEC7CA /* Exocel_Light.ttf */,
+				DF1D04AB271A02BA00DEC7CA /* Exocet_Heavy.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		DF44200D2719E3B000E65BA5 = {
@@ -126,6 +139,7 @@
 		DF4420352719E6B600E65BA5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DF1D04AA271A026500DEC7CA /* Fonts */,
 				DF4420222719E3B000E65BA5 /* Assets.xcassets */,
 				DF4420362719E6EC00E65BA5 /* runes.json */,
 			);
@@ -236,10 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1D04AD271A02BA00DEC7CA /* Exocet_Heavy.ttf in Resources */,
 				DF4420262719E3B000E65BA5 /* LaunchScreen.storyboard in Resources */,
 				DF4420232719E3B000E65BA5 /* Assets.xcassets in Resources */,
 				DF4420212719E3B000E65BA5 /* Main.storyboard in Resources */,
 				DF4420372719E6EC00E65BA5 /* runes.json in Resources */,
+				DF1D04AE271A02BA00DEC7CA /* Exocel_Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

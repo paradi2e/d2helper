@@ -13,6 +13,13 @@ class RuneSelectCollectionCell: UICollectionViewCell {
     // MARK: - IBOutlets
     // MARK: - Constants
     // MARK: - Public properties
+    
+    var isCurrent: Bool = false {
+        didSet {
+            changeStyle()
+        }
+    }
+    
     // MARK: - Private properties
     
     private var rune: RuneModel?
@@ -41,11 +48,15 @@ class RuneSelectCollectionCell: UICollectionViewCell {
     private func configureRuneNameLabel() {
         runeNameLabel.numberOfLines = 1
         runeNameLabel.text = rune?.name
-        runeNameLabel.font = UIFont.systemFont(ofSize: 16.0)
+        runeNameLabel.font = UIFont(name: "ExocetLight", size: 16.0)
         addSubview(runeNameLabel)
         runeNameLabel.snp.makeConstraints {
             $0.center.equalToSuperview()
         }
+    }
+    
+    private func changeStyle() {
+        backgroundColor = isCurrent ? .yellow : .white
     }
     
     // MARK: - IBActions
