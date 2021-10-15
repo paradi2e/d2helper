@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21B5808E8F7C45E461EE8DAE /* Pods_D2Runeword.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E14EDFB109DBD191A4B4513 /* Pods_D2Runeword.framework */; };
 		DF44201A2719E3B000E65BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4420192719E3B000E65BA5 /* AppDelegate.swift */; };
 		DF44201C2719E3B000E65BA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44201B2719E3B000E65BA5 /* SceneDelegate.swift */; };
 		DF44201E2719E3B000E65BA5 /* RuneSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44201D2719E3B000E65BA5 /* RuneSelectViewController.swift */; };
@@ -16,9 +17,12 @@
 		DF4420302719E42B00E65BA5 /* RuneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44202F2719E42B00E65BA5 /* RuneModel.swift */; };
 		DF4420342719E56500E65BA5 /* DecodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4420332719E56500E65BA5 /* DecodableExtension.swift */; };
 		DF4420372719E6EC00E65BA5 /* runes.json in Resources */ = {isa = PBXBuildFile; fileRef = DF4420362719E6EC00E65BA5 /* runes.json */; };
+		DF735C062719F64B0019E894 /* RuneSelectCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF735C052719F64B0019E894 /* RuneSelectCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E14EDFB109DBD191A4B4513 /* Pods_D2Runeword.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_D2Runeword.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81959B08884F18C2930BB0C1 /* Pods-D2Runeword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-D2Runeword.release.xcconfig"; path = "Target Support Files/Pods-D2Runeword/Pods-D2Runeword.release.xcconfig"; sourceTree = "<group>"; };
 		DF4420162719E3B000E65BA5 /* D2Runeword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D2Runeword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4420192719E3B000E65BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF44201B2719E3B000E65BA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		DF44202F2719E42B00E65BA5 /* RuneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneModel.swift; sourceTree = "<group>"; };
 		DF4420332719E56500E65BA5 /* DecodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableExtension.swift; sourceTree = "<group>"; };
 		DF4420362719E6EC00E65BA5 /* runes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = runes.json; sourceTree = "<group>"; };
+		DF735C052719F64B0019E894 /* RuneSelectCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuneSelectCollectionCell.swift; sourceTree = "<group>"; };
+		F82E124CDFE20DAEEFC9F8D7 /* Pods-D2Runeword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-D2Runeword.debug.xcconfig"; path = "Target Support Files/Pods-D2Runeword/Pods-D2Runeword.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B5808E8F7C45E461EE8DAE /* Pods_D2Runeword.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB619779025B21446475E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E14EDFB109DBD191A4B4513 /* Pods_D2Runeword.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3985363CEAF972394EAD6C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F82E124CDFE20DAEEFC9F8D7 /* Pods-D2Runeword.debug.xcconfig */,
+				81959B08884F18C2930BB0C1 /* Pods-D2Runeword.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF44200D2719E3B000E65BA5 = {
 			isa = PBXGroup;
 			children = (
 				DF4420182719E3B000E65BA5 /* D2Runeword */,
 				DF4420172719E3B000E65BA5 /* Products */,
+				D3985363CEAF972394EAD6C8 /* Pods */,
+				0FB619779025B21446475E4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +145,26 @@
 		DF44203A2719EAC900E65BA5 /* RuneSelect */ = {
 			isa = PBXGroup;
 			children = (
+				DF735C032719F6100019E894 /* RuneSelectCollection */,
 				DF44201D2719E3B000E65BA5 /* RuneSelectViewController.swift */,
 			);
 			path = RuneSelect;
+			sourceTree = "<group>";
+		};
+		DF735C032719F6100019E894 /* RuneSelectCollection */ = {
+			isa = PBXGroup;
+			children = (
+				DF735C042719F61D0019E894 /* RuneSelectCollectionCell */,
+			);
+			path = RuneSelectCollection;
+			sourceTree = "<group>";
+		};
+		DF735C042719F61D0019E894 /* RuneSelectCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				DF735C052719F64B0019E894 /* RuneSelectCollectionCell.swift */,
+			);
+			path = RuneSelectCollectionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF44202A2719E3B000E65BA5 /* Build configuration list for PBXNativeTarget "D2Runeword" */;
 			buildPhases = (
+				096A7EA6FA17A7C704862461 /* [CP] Check Pods Manifest.lock */,
 				DF4420122719E3B000E65BA5 /* Sources */,
 				DF4420132719E3B000E65BA5 /* Frameworks */,
 				DF4420142719E3B000E65BA5 /* Resources */,
+				6E76E9D3A4C79F31A9492994 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +236,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		096A7EA6FA17A7C704862461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-D2Runeword-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E76E9D3A4C79F31A9492994 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-D2Runeword/Pods-D2Runeword-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-D2Runeword/Pods-D2Runeword-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-D2Runeword/Pods-D2Runeword-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF4420122719E3B000E65BA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,6 +286,7 @@
 				DF44201E2719E3B000E65BA5 /* RuneSelectViewController.swift in Sources */,
 				DF4420302719E42B00E65BA5 /* RuneModel.swift in Sources */,
 				DF44201A2719E3B000E65BA5 /* AppDelegate.swift in Sources */,
+				DF735C062719F64B0019E894 /* RuneSelectCollectionCell.swift in Sources */,
 				DF44201C2719E3B000E65BA5 /* SceneDelegate.swift in Sources */,
 				DF4420342719E56500E65BA5 /* DecodableExtension.swift in Sources */,
 			);
@@ -344,6 +432,7 @@
 		};
 		DF44202B2719E3B000E65BA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82E124CDFE20DAEEFC9F8D7 /* Pods-D2Runeword.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,6 +461,7 @@
 		};
 		DF44202C2719E3B000E65BA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81959B08884F18C2930BB0C1 /* Pods-D2Runeword.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

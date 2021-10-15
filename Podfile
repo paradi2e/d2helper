@@ -6,5 +6,9 @@ target 'D2Runeword' do
   use_frameworks!
 
   # Pods for D2Runeword
+	
+	pod 'SnapKit', '~> 5.0.0'
+
+
 
 end
