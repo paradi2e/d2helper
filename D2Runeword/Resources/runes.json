@@ -1,0 +1,266 @@
+ [
+    {
+        "id": 1,
+        "name": "El",
+        "minLevel": 11,
+        "weaponBonus": "+50 AR, +1 Light Radius",
+        "armorBonus": "+1 Light Radius, +15 Defense",
+        "shieldBonus": "+1 Light Radius, +15 Defense"
+    },
+    {
+        "id": 2,
+        "name": "Eld",
+        "minLevel": 11,
+        "weaponBonus": "+75% Damage vs. Undead, +50 Attack Rating vs. Undead",
+        "armorBonus": "Lowers Stamina drain by 15%",
+        "shieldBonus": "+7% Blocking"
+    },
+    {
+        "id": 3,
+        "name": "Tir",
+        "minLevel": 13,
+        "weaponBonus": "+2 Mana Per Kill",
+        "armorBonus": "+2 Mana Per Kill",
+        "shieldBonus": "+2 Mana Per Kill"
+    },
+    {
+        "id": 4,
+        "name": "Nef",
+        "minLevel": 13,
+        "weaponBonus": "Knockback",
+        "armorBonus": "+30 Defense vs. Missile",
+        "shieldBonus": "+30 Defense vs. Missile"
+    },
+    {
+        "id": 5,
+        "name": "Eth",
+        "minLevel": 15,
+        "weaponBonus": "-25% Target Defense",
+        "armorBonus": "Regenerate Mana 15%",
+        "shieldBonus": "Regenerate Mana 15%"
+    },
+    {
+        "id": 6,
+        "name": "Ith",
+        "minLevel": 15,
+        "weaponBonus": "+9 to Maximum Damage",
+        "armorBonus": "15% Damage Taken Goes to Mana",
+        "shieldBonus": "15% Damage Taken Goes to Mana"
+    },
+    {
+        "id": 7,
+        "name": "Tal",
+        "minLevel": 17,
+        "weaponBonus": "75 Poison damage over 5 seconds",
+        "armorBonus": "+30% Poison Resistance",
+        "shieldBonus": "+35% Poison Resistance"
+    },
+    {
+        "id": 8,
+        "name": "Ral",
+        "minLevel": 19,
+        "weaponBonus": "+5-30 Fire Damage",
+        "armorBonus": "+30% Fire Resistance",
+        "shieldBonus": "+35% Fire Resistance"
+    },
+    {
+        "id": 9,
+        "name": "Ort",
+        "minLevel": 21,
+        "weaponBonus": "+1-50 Lightning Damage",
+        "armorBonus": "+30% Lightning Resistance",
+        "shieldBonus": "+35% Lightning Resistance"
+    },
+    {
+        "id": 10,
+        "name": "Thul",
+        "minLevel": 23,
+        "weaponBonus": "+3-14 Cold Damage (Cold Length 3 seconds)",
+        "armorBonus": "+30% Cold Resistance",
+        "shieldBonus": "+35% Cold Resistance"
+    },
+    {
+        "id": 11,
+        "name": "Amn",
+        "minLevel": 25,
+        "weaponBonus": "7% Life Stolen Per Hit",
+        "armorBonus": "Attacker takes 14 damage",
+        "shieldBonus": "Attacker takes 14 damage"
+    },
+    {
+        "id": 12,
+        "name": "Sol",
+        "minLevel": 27,
+        "weaponBonus": "+9 to Minimum Damage",
+        "armorBonus": "-7 Damage Taken",
+        "shieldBonus": "-7 Damage Taken"
+    },
+    {
+        "id": 13,
+        "name": "Shael",
+        "minLevel": 29,
+        "weaponBonus": "Faster Attack Rate (+20)",
+        "armorBonus": "Faster Hit Recovery (+20)",
+        "shieldBonus": "Faster Block Rate (+20)"
+    },
+    {
+        "id": 14,
+        "name": "Dol",
+        "minLevel": 31,
+        "weaponBonus": "25% Chance that Hit Causes Monster to Flee",
+        "armorBonus": "+7 Replenish Life",
+        "shieldBonus": "+7 Replenish Life"
+    },
+    {
+        "id": 15,
+        "name": "Hel",
+        "minLevel": 33,
+        "weaponBonus": "-20% Requirements",
+        "armorBonus": "-15% Requirements",
+        "shieldBonus": "-15% Requirements"
+    },
+    {
+        "id": 16,
+        "name": "Io",
+        "minLevel": 35,
+        "weaponBonus": "+10 Vitality",
+        "armorBonus": "+10 Vitality",
+        "shieldBonus": "+10 Vitality"
+    },
+    {
+        "id": 17,
+        "name": "Lum",
+        "minLevel": 37,
+        "weaponBonus": "+10 Energy",
+        "armorBonus": "+10 Energy",
+        "shieldBonus": "+10 Energy"
+    },
+    {
+        "id": 18,
+        "name": "Ko",
+        "minLevel": 39,
+        "weaponBonus": "+10 Dexterity",
+        "armorBonus": "+10 Dexterity",
+        "shieldBonus": "+10 Dexterity"
+    },
+    {
+        "id": 19,
+        "name": "Fal",
+        "minLevel": 41,
+        "weaponBonus": "+10 Strength",
+        "armorBonus": "+10 Strength",
+        "shieldBonus": "+10 Strength"
+    },
+    {
+        "id": 20,
+        "name": "Lem",
+        "minLevel": 43,
+        "weaponBonus": "+75% Extra Gold from Monsters",
+        "armorBonus": "+50% Extra Gold from Monsters",
+        "shieldBonus": "+50% Extra Gold from Monsters"
+    },
+    {
+        "id": 21,
+        "name": "Pul",
+        "minLevel": 45,
+        "weaponBonus": "+75% Damage to Demons, +100 AR against Demons",
+        "armorBonus": "+30% Defense",
+        "shieldBonus": "+30% Defense"
+    },
+    {
+        "id": 22,
+        "name": "Um",
+        "minLevel": 47,
+        "weaponBonus": "25% Chance of Open Wounds",
+        "armorBonus": "+15% Resist All",
+        "shieldBonus": "+22% Resist All"
+    },
+    {
+        "id": 23,
+        "name": "Mal",
+        "minLevel": 49,
+        "weaponBonus": "Prevent Monster Healing",
+        "armorBonus": "Reduce Magic Damage by 7",
+        "shieldBonus": "Reduce Magic Damage by 7"
+    },
+    {
+        "id": 24,
+        "name": "Ist",
+        "minLevel": 51,
+        "weaponBonus": "+30% Better Chance of Finding Magical Items",
+        "armorBonus": "+25% Better Chance of Finding Magical Items",
+        "shieldBonus": "+25% Better Chance of Finding Magical Items"
+    },
+    {
+        "id": 25,
+        "name": "Gul",
+        "minLevel": 53,
+        "weaponBonus": "+20% AR",
+        "armorBonus": "+5 to Max Resist Poison",
+        "shieldBonus": "+5 to Max Resist Poison"
+    },
+    {
+        "id": 26,
+        "name": "Vex",
+        "minLevel": 55,
+        "weaponBonus": "7% Mana Leech",
+        "armorBonus": "+5 to Max Fire Resist",
+        "shieldBonus": "+5 to Max Fire Resist"
+    },
+    {
+        "id": 27,
+        "name": "Ohm",
+        "minLevel": 57,
+        "weaponBonus": "+50% Damage",
+        "armorBonus": "+5 to Max Cold Resist",
+        "shieldBonus": "+5 to Max Cold Resist"
+    },
+    {
+        "id": 28,
+        "name": "Lo",
+        "minLevel": 59,
+        "weaponBonus": "20% Chance of Deadly Strike",
+        "armorBonus": "+5 to Max Lightning Resist",
+        "shieldBonus": "+5 to Max Lightning Resist"
+    },
+    {
+        "id": 29,
+        "name": "Sur",
+        "minLevel": 61,
+        "weaponBonus": "20% Chance of Hit Blinds Target",
+        "armorBonus": "+5% total Mana",
+        "shieldBonus": "+50 Mana"
+    },
+    {
+        "id": 30,
+        "name": "Ber",
+        "minLevel": 63,
+        "weaponBonus": "20% Chance of Crushing Blow",
+        "armorBonus": "Damage Reduced by 8%",
+        "shieldBonus": "Damage Reduced by 8%"
+    },
+    {
+        "id": 31,
+        "name": "Jah",
+        "minLevel": 65,
+        "weaponBonus": "Ignores Target Defense",
+        "armorBonus": "+5% of total Hit Points",
+        "shieldBonus": "+50 Hit Points"
+    },
+    {
+        "id": 32,
+        "name": "Cham",
+        "minLevel": 67,
+        "weaponBonus": "32% Chance of Hit Freezing Target for 3 seconds",
+        "armorBonus": "Cannot be Frozen",
+        "shieldBonus": "Cannot be Frozen"
+    },
+    {
+        "id": 33,
+        "name": "Zod",
+        "minLevel": 69,
+        "weaponBonus": "Indestructible",
+        "armorBonus": "Indestructible",
+        "shieldBonus": "Indestructible"
+    }
+]
